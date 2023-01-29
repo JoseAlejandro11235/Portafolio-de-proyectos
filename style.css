@@ -42,7 +42,7 @@ header nav ul li:hover a{
 }
 
 main{
-    background-color: #ffffef;
+    background-color: #EEEFFf;
 }
 
 .perfil{
@@ -305,8 +305,8 @@ footer p{
     
     .perfil{
         width: 100%;
+        margin: auto;
         padding: 0;
-        margin: 20px auto ;
     }
     
     .perfil__container{
