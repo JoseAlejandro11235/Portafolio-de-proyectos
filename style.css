@@ -1,0 +1,390 @@
+body{
+    margin: auto;
+    font-family:  'serif';
+}
+
+header{
+    background-color: #24303c;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    color:#FFF;
+    font-size: 18px;
+}
+
+.header__container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin:10px;
+    padding: 5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:#1f53c5;
+    transition-duration: 0.5s;  
+}
+
+header nav ul li:hover a{
+    color: #21007b;   
+}
+
+main{
+    background-color: #ffffef;
+}
+
+.perfil{
+    margin: auto;
+    padding: 50px 0;    
+    width: 70%;
+}
+
+.perfil__container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.perfil__textocompleto{
+    text-align: justify;
+    width: 40%;
+}
+
+.perfil__imagen{
+    box-shadow: 1px 4px 8px #000;
+    border-radius: 50%;
+    height: 150px;
+    margin-right: 100px;
+    width: 150px;
+}
+
+.perfil__imagen:hover{
+    opacity: 0.8;
+}
+
+.educacion{
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+}   
+
+.educacion__container{
+    display: flex;
+    justify-content: center;
+}
+
+.educacion__division{
+    width: 22%;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    font-size: 17px;
+}
+
+
+.tecnologias{
+    
+    width: 70%;
+    margin: 50px auto;
+}
+
+.tecnologias__container{
+    display:grid;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+
+.tec_div{
+    text-align: center;
+    
+}
+
+
+.tecnologias__img{
+    width: 200px;
+    height: 200px; 
+}
+
+.logo_javascript, .logo_sql, .logo_git,.logo_java {
+    width: 180px;
+    height: 180px;
+    margin: 10px 0 ;
+}
+
+.tecnologias h3{
+    font-weight: 600;
+    font-family: cursive;
+}
+
+
+.proyectos{
+    width: 70%;
+    margin: 100px auto;  
+}
+
+.proyectos__container{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 15px ;  
+    text-align: center;
+}
+
+
+.portafolio, .encriptador, .ahorcado{
+    background-color: #FFFFFF;
+    
+}
+
+.proyectos h3{
+    font-size: 20px;
+}
+
+
+.proyecto_espacio{
+    display: flex;
+    box-shadow: 1px 1px 5px #000;
+}   
+
+
+.proyectos__imagen{
+    width:300px;
+    height: 200px; 
+}
+
+.proyectos a{
+    text-decoration: none;
+}
+
+.btn_rep{
+    background: #24303c;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 118px;
+    margin-right: 3px;
+    color: #FFF;
+    transition-duration: 0.5s; 
+}
+
+.btn_rep:hover{
+    background: #000;
+}
+
+.btn_res{
+    background: #ffffef;
+    border: 2px solid #1f53c5;  
+    width: 90px;
+    height: 30px; 
+    border-radius: 5px;
+    color: #1f53c5;
+    transition-duration: 0.5s; 
+}
+
+.btn_res:hover{
+    background: #000;
+}
+
+.contacto{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.contacto__formulario{
+    width:400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.contacto__tituloform{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+    
+.contacto__formulario input, .contacto__formulario textarea{
+    display: block;
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.contacto__formulario .btn_envio{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    transition-duration: 0.5s; 
+}
+
+.contacto__formulario .btn_envio:hover{
+    background: #000;
+}
+
+
+h2{
+    font-size: 35px;
+    font-weight: 550;
+    color:#24303c;  
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.icon_img{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_lkdn{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+    background: #24303c;
+    padding: 30px;
+    font-size: 12px;
+    color:#FFF;
+}
+
+footer p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.icons_container{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+@media  screen and (max-width: 600px) {
+    .header__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    header nav ul{
+        margin-top: 5px;
+    }
+
+    header nav ul li{
+        margin:2.5px;
+        padding: 1px;
+    }
+    
+    .perfil{
+        width: 100%;
+        padding: 0;
+        margin: 20px auto ;
+    }
+    
+    .perfil__container{
+        flex-direction: column;
+    }
+
+    .perfil__textocompleto{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .perfil__imagen{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .educacion__container{
+        flex-direction: column;
+    }
+
+    .educacion__division{
+        width: 90%;
+        padding: 5px;
+        
+    }
+    
+    
+    .tecnologias{
+        width: 95%;
+        margin:  15px auto;
+    }
+
+    .tecnologias__container{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+     
+    .tecnologias__img{
+        width: 100px;
+        height: 100px; 
+    }
+
+    .proyectos{
+        width: 90%;
+        margin: 40px auto ;
+    }
+
+    .proyectos__container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .proyecto_espacio{
+        display: block
+    }   
+    
+    .proyectos__imagen{
+        width:270px;
+        height:180px; 
+        margin: 10px;    
+    }
+
+    .btn_rep{      
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .contacto{
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .contacto__formulario{
+        width:300px;
+    }
+    
+    
+    
+}
