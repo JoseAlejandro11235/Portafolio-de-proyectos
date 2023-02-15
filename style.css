@@ -1,16 +1,15 @@
 body{
-    margin: auto;
-    font-family:  'serif';
     background: #EEEFFf;
+    margin: auto;    
 }
 
 header{
-    background-color: #24303c;
-    width: 100%;
+    background: #24303c;
+    color:#FFF;
+    font-size: 16px;
     position: sticky;
     top: 0;
-    color:#FFF;
-    font-size: 18px;
+    width: 100%;
 }
 
 .header__container{
@@ -43,7 +42,7 @@ header nav ul li:hover a{
 }
 
 main{
-    background-color: #EEEFFf;
+    background-color: #F5F5F5;
 }
 
 .perfil{
@@ -130,8 +129,8 @@ main{
 }
 
 .tecnologias h3{
-    font-weight: 600;
-    font-family: cursive;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 
@@ -295,18 +294,15 @@ footer p{
         width: 100%;
     }
 
-    header nav ul{
-        margin-top: 5px;
-    }
 
     header nav ul li{
-        margin:2.5px;
-        padding: 1px;
+        margin:4px 2px 0;
+        padding: 5px;
     }
     
     .perfil{
+        margin-top: 20px;
         width: 100%;
-        margin: auto;
         padding: 0;
     }
     
@@ -384,8 +380,6 @@ footer p{
 
     .contacto__formulario{
         width:300px;
-    }
-    
-    
+    }   
     
 }
